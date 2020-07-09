@@ -12,7 +12,7 @@
          <children>
             <Button layoutX="4.0" layoutY="489.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="192.0" text="الاستقطاعات" />
             <Button layoutX="4.0" layoutY="383.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="192.0" text="الوظائف" />
-            <Button layoutX="4.0" layoutY="120.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="192.0" text="المناطق" />
+            <Button layoutX="4.0" layoutY="120.0" mnemonicParsing="false" onAction="#zone" prefHeight="45.0" prefWidth="192.0" text="المناطق" />
             <Button layoutX="4.0" layoutY="172.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="192.0" text="المواقع" />
             <Button layoutX="4.0" layoutY="226.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="192.0" text="المشاريع" />
             <Button layoutX="4.0" layoutY="278.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="192.0" text="الضمانات" />
