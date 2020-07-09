@@ -8,17 +8,17 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Views/Home.fxml"));
         primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        Scene scene=new Scene(root,1108,698);
+        primaryStage.setTitle("لوحة التحكم  ");
+        primaryStage.setScene( scene );
         primaryStage.show();
     }
 
 
     public static void main(String[] args) {
-
-        Controller controller = new Controller();
-        controller.getAll();
-
+        launch(args);
     }
 }
+
